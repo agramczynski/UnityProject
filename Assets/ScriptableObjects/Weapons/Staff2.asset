@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b481759bb2280e44862d6d7abd1a542, type: 3}
+  m_Name: Staff2
+  m_EditorClassIdentifier: 
+  _objName: Staff2
+  _sprite: {fileID: 21300000, guid: 70ba9078f5c3d6540901a490bf895ebb, type: 3}
+  _animationOffset: {x: -0.4, y: 0}
+  _mainAnimation: Swing
+  _secondaryAnimation: Swing2
+  _animationTime: 1
+  _rotationOffset: 90
+  _alwaysOnTop: 1
+  _reverseHand: 0
+  _attackInitialRotation: 0
+  _rotationSpeedAfter: -300
+  _rotationSpeedDamp: -2000
+  _reload: 0
+  _damage: 1
+  _timeBetweenAttacks: 0.3
+  attack: {fileID: 34983881670260371, guid: 8d316fb044ac49940b602a0d99007df8, type: 3}
